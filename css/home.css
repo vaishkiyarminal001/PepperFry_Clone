@@ -6,33 +6,37 @@
 }
 
 #scroll{
-    border: 1px solid red;
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap;   
+  /* border: 1px solid red; */
+  height: 20px;
+  width: 70%;
+  overflow: hidden;
+  margin-top: 1%;
+
 }
+
 #group{
-    position: relative;
-    height: 20px;
-    overflow: hidden;
-    color: #fff;
-    background-color: #0000008e;
-}
 
-#caraousel{
-    position: absolute;
-    margin: 5px 0;
-    padding: 0;
-    width: max-content;
-    animation: my-animation 24s linear infinite;
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll 20s linear infinite;
+  font-size: 12px;
 
 }
+
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
 
 #banner{
     /* border: 1px solid red; */
     width: 100%;
     margin: auto;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 #banner>img{
@@ -188,7 +192,6 @@ strike{
     /* border: 1px solid red; */
     margin: auto;
     width: 95%;
-    /* height: 300px; */
     gap: 5px;
     
 }
@@ -197,7 +200,6 @@ strike{
     /* border: 1px solid red; */
     width: 100%;   
     margin: auto;
-    /* margin-top: 0px; */
     height: 300px;
 }
 
@@ -216,6 +218,83 @@ strike{
     color: #858383;
     padding-bottom: 1.5%;
 
+}
+
+
+#shareTheLove{
+    display: flex;
+    width: 100%;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+
+
+#shareTheLove > div:nth-child(1){
+    /* border: 1px solid red; */
+    color: rgb(154, 153, 153);
+    text-align: left;
+    font-size: 13px;
+    
+}
+
+#shareTheLove > div:nth-child(2){
+    /* border: 1px solid red; */
+    color: #9e6d3c;
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+#shareTheLove > div:nth-child(3){
+    /* border: 1px solid red; */
+    color: #f05522;
+    text-align: right;
+    
+}
+
+#showLoveImg{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 420px;
+    overflow: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    /* margin-top: 2%; */
+
+}
+
+#showLoveImg > div{
+
+    /* border: 1px solid red; */
+    display: inline-block;
+    width: 25%;
+    margin-top: 1.5%;
+    height: 400px;
+    margin-right: 10px;
+    background-color: #f1f1f1;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    
+
+}
+
+#showLoveImg > div > img{
+    display: block;
+    /* border: 1px solid black; */
+    display: inline-block;
+    width: 99%;
+    height: 300px;
+    border-radius: 10px 10px 0px 0px;    
+}
+
+#showLoveImg > div > p{
+    color:#858383;
+    font-size: 11.5px;
+}
+
+#instalogo{
+    /* border: 1px solid red; */
+    width: 40px;
 }
 
 
@@ -383,3 +462,21 @@ color: #858383;
 padding-bottom: 1.5%;
 
 }
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for medium screens go here */
+
+
+    
+  }
+
+@media only screen and (max-width: 768px) {
+    /* Styles for small screens go here */
+
+  }
+  
+ 
+  
+  
