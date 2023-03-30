@@ -1,13 +1,3 @@
-// scroll
-
-// var style = document.createElement('style');
-// var position = 'right';
-// style.innerHTML = `@keyframes my-animation{
-//     0%{${position:-${document.querySelector("#caraousel").offsetWidth + 10}px;}
-
-// }`;
-
-
 
 // timer
 var timer = document.getElementById("timer");
@@ -37,11 +27,16 @@ function updateTimer() {
   timer.textContent =  `Ending in ${hours}h : ${minutes}m : ${seconds}s`;
 }
 
+// showLove section
 
-// var heartIcon = document.getElementById("heartIcon");
 
-// heartIcon.addEventListener("click", ()=>{
+const imageContainer = document.getElementById("showLoveImg");
 
-// })
+function scrollImages() {
+  imageContainer.scrollLeft += 1;
+}
+
+setInterval(scrollImages, 10);
+
 
 
