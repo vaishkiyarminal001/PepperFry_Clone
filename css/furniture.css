@@ -1,0 +1,140 @@
+*{
+    font-family: Manrope,sans-serif;
+    margin-top: 0px;
+    margin: auto;
+    width: 95%;
+    
+}
+
+#BeKind{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid red; */
+    margin-top: 1.5%;
+}
+
+#BeKind > img{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+
+}
+
+#ShopByCategories{
+    /* border: 1px solid red; */
+    width: 100%;
+    text-align: center;
+    margin-top: 1.5%;
+    color: #9e6d3c;
+}
+
+
+#ShopByCategoriesImg{
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 1.5%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: .5px;
+
+}
+
+#ShopByCategoriesImg > div{
+    /* border: 1px solid red; */
+    margin-top: 1.5%;
+    width: 90%;
+    color: rgb(153, 151, 151);
+    font-weight: 100;
+    font-size: 13px;
+} 
+
+#ShopByCategoriesImg > div > img{
+    /* border: 1px solid red; */
+    margin-top: 1.5%;
+    width: 99%;
+} 
+
+#all{
+    /* border:1px solid red; */
+    width: 100%;
+    text-align: center;
+    margin-top: 1.5%;
+    color: #f16421;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+#CareFor{
+    /* border: 1px solid red; */
+    width: 100%;
+    text-align: center;
+    margin-top: 2.5%;
+    color: #9e6d3c;
+}
+
+#CareForImg{
+    width: 100%;
+    height:250px;
+    /* border: 1px solid red; */
+    margin-top: 1.5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+}
+
+#CareForImg > div{
+    width: 100%;
+    height:250px;
+    /* border: 1px solid red; */
+}
+
+#CareForImg > div >img{
+    width: 100%;
+    height: 100%;
+}
+
+#Sellers{
+    width: 100%;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 1.5%;
+    color: #9e6d3c;
+}
+
+#SellersImg{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid red; */
+    margin-top: 1.5%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+}
+
+#SellersImg > div{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid red; */
+}
+
+#SellersImg > div >img{
+    display: block;
+    width: 95%;
+    height: 150px;
+    margin: auto;
+}
+
+
+#SellersImg > div > h4{
+    color:rgb(85, 83, 83);
+    font-size: 16px;
+}
+
+#SellersImg > div > p{
+    color:rgb(143, 141, 141);
+    font-size: 12px;
+}
+
+
+
