@@ -1,3 +1,8 @@
+*{
+    font-family: Manrope,sans-serif;
+    margin: 0px;
+}
+
 .prime-nav > div{
     display: flex;
     height: auto;
@@ -7,6 +12,16 @@
     margin-top: 0px;
     justify-content: space-between;
 }
+.prime-nav > div > form {
+    border-bottom: 1px solid rgb(156, 156, 156);
+    padding-bottom: 4px;
+}
+.prime-nav > div > form > input{
+    border: none;
+    font-size: 16px;
+    line-height: 20px;
+
+}
 .small-nav-icon > a{
         padding: 0px 15px 0px 15px;
         text-decoration: none;
@@ -15,27 +30,39 @@
 a{
     text-decoration: none;
 }
-.logo > img{ 
-       width: 250px;
+.logo> a> img{ 
+       width: 350px;
+       
 }
-
+.sec
+ond-nav{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
 .second-nav > div {
     display: flex;
     width: 60%;
     align-items: center;
     justify-content: space-between;
     margin: auto;
-    font-size: .90rem;
+    font-size: 13px;
     line-height: 1.25rem;
     background-color: transparent;
-    color: #5b5b5b;
     
-
+}
+.second-nav > div > a > p{
+    color: #000000;
+}
+.second-nav > div > a > p:hover {
+    color: #ef3d22
 }
 .nav {
     background-color: #5b5b5b;
     box-sizing: border-box;
-    
+    height: 48px;
+    padding-top: 10px;
+    overflow: hidden;
+    /* border: 2px solid black; */
 }
 .nav > ul{
     display: flex;
@@ -52,22 +79,61 @@ a{
     margin: auto;
     width: 80%;
 }
-.nav > ul li > a{
+.nav > ul li>span >a{
     display: flex;
     font-family: Manrope,sans-serif;
-    font-size: 19px;
+    font-size: 16px;
     letter-spacing: 0;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     margin: auto;
     padding: 5px 5px 5px 5px;
     
+    
 }
+.drop-btn{
+    border:none
+    
+}
+
 .is-hidden{
     display: none;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 143px;
+    z-index: 10;
+    /* color: green; */
+    background-color: #f6f6f6;
+
+}
+.drop-btn:hover .is-hidden{
+    display: block;
+
+}
+.dropdown-col{
+    float: left;
+    width: 10%;
+}
+.dropdown-col > ul{
+    margin-bottom:10px;
 }
 .hidden >li > a{
     font-family: Manrope,sans-serif;
     font-size: 16px;
+    display: block;
     letter-spacing: 0;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+.hidden >li:first-child{
+    font-size: 15px;
+    color:#9d6a37;
+}
+.hidden > li > a{
+    color:  #5b5b5b;
+    font-size: 12px;
+    justify-content: none;
+
+}
+.hidden > li > a:hover{
+    color:#9d6a37;
 }
