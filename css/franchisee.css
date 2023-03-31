@@ -186,28 +186,21 @@ span{
 }
 .AV-partners{
  width:90%;
- height:500px;
+ height:650px;
  background-color:white;
  margin:auto;
  display: grid;
  grid-template-columns: repeat(3,1fr);
  gap:10px;
  margin-top:30px;
- border:1px solid red;
+ border:1px solid noshade;
 }
 .AV-partners div{
+    height:550px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 15px;
-}
-.AV-partners div:nth-child(1){
- background-color: #f8cca5;
-}
-.AV-partners div:nth-child(2){
     background-color: #f8cca5;
-   }
-   .AV-partners div:nth-child(3){
-    background-color: #f8cca5;
-   }
+}
 .AV-partners div>img{
     width:100%;
     border-radius: 15px;
