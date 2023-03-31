@@ -7,7 +7,7 @@
     width: 80%;
     height:500px;
     margin: 50px auto;
-    border:2px solid rgb(255, 224, 178);
+    border:2px solid #f05421;
     border-radius: 20px;
 }
 h1{
@@ -15,6 +15,7 @@ h1{
     font-family: Manrope,sans-serif;
     padding-left: 40px;
     padding-top: 50px;
+    color: #f05421;
 }
 .container p{
     margin-bottom: 40px;
@@ -35,6 +36,7 @@ h1{
     width:320px;
     font-family: Manrope,sans-serif;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
 }
 #cont{
     width: 200px;
@@ -49,4 +51,5 @@ h1{
     padding-left: 90px;
     padding-top: 20px;
     font-weight: bold;
+    color: #f05421;
 }
