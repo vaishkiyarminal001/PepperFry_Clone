@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="/css/header.css">
 </head>
 <body>
     <header>
@@ -1298,15 +1298,18 @@
     </header>
 </body>
 <script>
-    let dropBtn = document.getElementsByClassName("drop-btn");
-    let isHidden = document.getElementsByClassName("is-hidden");
-    //console.log(dropBtn)
+
+let dropBtn = document.getElementsByClassName("drop-btn");
+let isHidden = document.getElementsByClassName("is-hidden");
+//console.log(dropBtn)
+    
+for(let i=0;i<dropBtn.length;i++){
+    dropBtn[i].addEventListener("click",()=>{
+         isHidden[i].style.display = "flex"; 
         
-    for(let i=0;i<dropBtn.length;i++){
-        dropBtn[i].addEventListener("mouseover",()=>{
-             isHidden[i].style.display = "flex"; 
-            
-        })
-    }
+
+    })
+}
+
 
 </script>
