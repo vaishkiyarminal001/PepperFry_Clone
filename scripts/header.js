@@ -7,4 +7,9 @@ for(let i=0;i<dropBtn.length;i++){
          isHidden[i].style.display = "flex"; 
         
     })
+
+    dropBtn[i].addEventListener("mouseout",()=>{
+         isHidden[i].style.display = "none"; 
+        
+    })
 }
