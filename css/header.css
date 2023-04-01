@@ -127,13 +127,25 @@ ond-nav{
 .hidden >li:first-child{
     font-size: 15px;
     color:#9d6a37;
+    
 }
 .hidden > li > a{
     color:  #5b5b5b;
     font-size: 12px;
     justify-content: none;
+    /* border: 1px solid red; */
+    font-size: 14px;
+    text-align: left;
 
+}
+
+.hidden > li{
+    /* border: 1px solid red; */
+    justify-content: left;
+    
 }
 .hidden > li > a:hover{
     color:#9d6a37;
+    /* border: 1px solid red; */
+    
 }
