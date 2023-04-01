@@ -34,6 +34,26 @@ a{
        width: 350px;
        
 }
+.login-tab{
+    display:none;
+    padding: 12px 16px;
+    
+}
+.login-tab > button{
+    color: #fff;
+    transition: all .3s ease-in;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 2px;
+    border: none;
+    background: transparent;
+    background-color: #FF7035;
+}
+.small-nav-icon > a:first-child:mouseover .login-tab{
+display: flex;
+}
+
+
 .sec
 ond-nav{
     padding-top: 8px;
