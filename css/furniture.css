@@ -158,6 +158,7 @@ ond-nav{
 
 #BeKind{
     width: 95%;
+    margin: auto;
     height: 300px;
     /* border: 1px solid red; */
     margin-top: 1.5%;
@@ -165,7 +166,9 @@ ond-nav{
 
 #BeKind > img{
     /* border: 1px solid red; */
+    display: block;
     width: 95%;
+    margin: auto;
     height: 100%;
 
 }
