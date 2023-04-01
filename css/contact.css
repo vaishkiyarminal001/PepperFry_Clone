@@ -52,59 +52,6 @@ ond-nav{
     background-color: transparent;
     
 }
-<<<<<<< HEAD
-=======
-
-/* header */
-
-.prime-nav > div{
-    display: flex;
-    height: auto;
-    align-items: center;
-    width: 90%;
-    margin: auto;
-    margin-top: 0px;
-    justify-content: space-between;
-}
-.prime-nav > div > form {
-    border-bottom: 1px solid rgb(156, 156, 156);
-    padding-bottom: 4px;
-}
-.prime-nav > div > form > input{
-    border: none;
-    font-size: 16px;
-    line-height: 20px;
-
-}
-.small-nav-icon > a{
-        padding: 0px 15px 0px 15px;
-        text-decoration: none;
-}
-
-a{
-    text-decoration: none;
-}
-.logo> a> img{ 
-       width: 350px;
-       
-}
-.sec
-ond-nav{
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
-.second-nav > div {
-    display: flex;
-    width: 60%;
-    align-items: center;
-    justify-content: space-between;
-    margin: auto;
-    font-size: 13px;
-    line-height: 1.25rem;
-    background-color: transparent;
-    
-}
->>>>>>> 1c7bfb1fb61c9d311c53f01c774221cd44811e4f
 .second-nav > div > a > p{
     color: #000000;
 }
@@ -206,16 +153,11 @@ ond-nav{
 }
 
 
-<<<<<<< HEAD
+
 /* middle part */
 
 
 .containerContact{
-=======
-
-
-.container{
->>>>>>> 1c7bfb1fb61c9d311c53f01c774221cd44811e4f
     width: 80%;
     height:500px;
     margin: 50px auto;
@@ -266,15 +208,9 @@ h1{
     color: #f05421;
 }
 
-<<<<<<< HEAD
-
 /* footer */
 
 
-=======
-/* footer */
-
->>>>>>> 1c7bfb1fb61c9d311c53f01c774221cd44811e4f
 .list>li {
     cursor: pointer;
 }
