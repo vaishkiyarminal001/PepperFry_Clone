@@ -1,9 +1,161 @@
+*{
+    font-family: Manrope,sans-serif;
+    margin: 0px;
+}
 
+.prime-nav > div{
+    display: flex;
+    height: auto;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 0px;
+    justify-content: space-between;
+}
+.prime-nav > div > form {
+    border-bottom: 1px solid rgb(156, 156, 156);
+    padding-bottom: 4px;
+}
+.prime-nav > div > form > input{
+    border: none;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+.small-nav-icon > a{
+        padding: 0px 15px 0px 15px;
+        text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+.logo> a> img{ 
+       width: 350px;
+       
+}
+.sec
+ond-nav{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.second-nav > div {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    font-size: 13px;
+    line-height: 1.25rem;
+    background-color: transparent;
+    
+}
+.second-nav > div > a > p{
+    color: #000000;
+}
+.second-nav > div > a > p:hover {
+    color: #ef3d22
+}
+.nav {
+    background-color: #5b5b5b;
+    box-sizing: border-box;
+    height: 48px;
+    padding-top: 10px;
+    overflow: hidden;
+    /* border: 2px solid black; */
+}
+.nav > ul{
+    display: flex;
+    width: 80%;
+    min-width: 1200px;
+    justify-content: center;
+    margin: auto;  
+
+}
+.nav > ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+}
+.nav > ul li>span >a{
+    display: flex;
+    font-family: Manrope,sans-serif;
+    font-size: 16px;
+    letter-spacing: 0;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+    
+    
+}
+.drop-btn{
+    border:none
+    
+}
+
+.is-hidden{
+    display: none;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 143px;
+    z-index: 10;
+    /* color: green; */
+    background-color: #f6f6f6;
+
+}
+.drop-btn:hover .is-hidden{
+    display: block;
+
+}
+.dropdown-col{
+    float: left;
+    width: 10%;
+}
+.dropdown-col > ul{
+    margin-bottom:10px;
+}
+.hidden >li > a{
+    font-family: Manrope,sans-serif;
+    font-size: 16px;
+    display: block;
+    letter-spacing: 0;
+    color: rgb(0, 0, 0);
+}
+.hidden >li:first-child{
+    font-size: 15px;
+    color:#9d6a37;
+    
+}
+.hidden > li > a{
+    color:  #5b5b5b;
+    font-size: 12px;
+    justify-content: none;
+    /* border: 1px solid red; */
+    font-size: 14px;
+    text-align: left;
+
+}
+
+.hidden > li{
+    /* border: 1px solid red; */
+    justify-content: left;
+    
+}
+.hidden > li > a:hover{
+    color:#9d6a37;
+    /* border: 1px solid red; */
+    
+}
 
 
 #franchisee{
     width:100%;
-    background-color: white;
+    /* background-color: white;
+    border: 1px solid red; */
+    margin-top:2% ;
 }
 
 #franchisee>.ADS>img{
@@ -12,14 +164,7 @@
     width:90%;
     margin:auto;
 }
-/* #AV-query-main{
-    width:90%;
-    background-color:aqua;
-    display:flex;
-    /* grid-template-columns: repeat(2,1fr); */
-    /* margin:auto;
-    border:5px solid rgb(86, 255, 128);
-} */ 
+
 
 #AV-query{
     width:80%;
@@ -34,64 +179,74 @@
     background-color:#f5f5f5;
     border:1px solid white;
     position: relative;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    font-size: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+
+   
     font-family: Manrope,sans-serif;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 .AV-why>h1{
-    text-align: center;
+    /* text-align: center; */
+    margin-left: 2.5%;
+    margin-top: 3%;
+    font-size: 25px;
     color:darkslategrey;
 }
 .AV-why>p{
-    text-align: center;
+    /* text-align: center; */
+    margin-left: 2.5%;
+    margin-top: 3%;
+    font-size: 18px;
     color:darkslategrey;
+    
 }
 .AV-why>h4{
-    text-align: center;
+    /* text-align: center; */
+    margin-left: 2.5%;
+    margin-top: 3%;
     color:darkslategrey;
 }
 .AV-why img{
     width:100%;
     position: absolute;
     bottom: 0;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 .AV-models{
     background-color:#f5f5f5;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     font-size: 20px;
     font-family: Manrope,sans-serif;
     color:#2f4f4f;
-    border-radius: 10px;
+   
 }
 .AV-models h3{
-    text-align: center;
+    margin-left: 2.5%;
+    margin-top: 3%;
     font-size: 20px;
     font-family: Manrope,sans-serif;
     color: black;
-    margin-left: 10px;
 }
 .AV-models h1{
-    text-align: center;
+    margin-left: 2.5%;
+    margin-top: 3%;
     font-size: 30px;
     font-family: Manrope,sans-serif;
     color:#2f4f4f;
-    margin-left: 10px;
 }
 .AV-models img{
    width:100%;
    margin-top: 10px;
-   border-radius: 10px;
 }
 .AV-models table{
-    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    /* box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px; */
     font-size: 20px;
     font-family: Manrope,sans-serif;
     color: #2f4f4f;
     width:80%;
     height:80px;
-    margin:Auto;
+    /* margin:Auto; */
+    margin-left: 2.5%;
+    margin-top: 3%;
 }
 .AV-form>h1{
     font-size: 25px;
@@ -175,7 +330,7 @@ span{
 /* partners */
 .AV-contents{
     font-size: 30px;
-    color:cadetblue;
+    color:#5b7b94;
     font-family: Manrope,sans-serif;
     width:250px;
     height:40px;
@@ -183,34 +338,33 @@ span{
     border:none;
     border-bottom-style: inset;
     border-color:cadetblue;
+    
 }
 .AV-partners{
  width:90%;
- height:650px;
+ height:530px;
  background-color:white;
  margin:auto;
  display: grid;
  grid-template-columns: repeat(3,1fr);
  gap:10px;
  margin-top:30px;
- border:1px solid noshade;
+ /* border: 1px solid red; */
 }
 .AV-partners div{
     height:550px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 15px;
-    background-color: #f8cca5;
+    
 }
 .AV-partners div>img{
     width:100%;
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 }
 .AV-partners p{
     font-size: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: justify;
     padding:0 10px 0 10px;
+    font-weight: bold;
 }
 .AV-partners h2{
     font-size: 20px;
