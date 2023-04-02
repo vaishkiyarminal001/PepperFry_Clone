@@ -1,0 +1,92 @@
+*{
+    font-family: Manrope,sans-serif;
+   
+}
+
+#ss-product-container{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    width: 100%;
+    gap: 2px;
+}
+
+#ss-product-container > div{
+    /* border: 1px solid red; */
+    width: 80%;
+    height: 650px;
+    margin: auto;
+    
+
+    
+}
+
+#ss-product-container > div > img {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 300px;
+
+}
+
+#ss-product-container > div > h3,
+#ss-product-container > div > p{
+    /* border: 1px solid red; */
+    margin-left: 2%;
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+
+button{
+    /* border: 1px solid red; */
+    border: none;
+    font-size: 18px;
+    display: block;
+    padding: 5px 5px;
+    margin: auto;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    background-color: #f05421;
+    color: white;
+}
+
+#fil{
+    /* border: 1px solid red; */
+    display: flex;
+    margin-bottom: 2%;
+}
+
+#filter{
+    /* border: 1px solid red; */
+    border: none;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius:5px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #f05421;
+    background-color: whitesmoke;
+
+
+}
+
+#filter-1{
+    /* border: 1px solid red; */
+    border: none;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius:5px;
+    margin-top: 1%;
+    color: #f05421;
+    background-color: whitesmoke;
+
+
+}
+
