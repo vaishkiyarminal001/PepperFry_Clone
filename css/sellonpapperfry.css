@@ -3,9 +3,6 @@
     font-family: Manrope,sans-serif;
 }
 
-
-
-
 /* header */
 
 
@@ -153,7 +150,7 @@ ond-nav{
 .hidden > li > a:hover{
     color:#9d6a37;
     /* border: 1px solid red; */
-    
+}   
 
 
 #container>img {
