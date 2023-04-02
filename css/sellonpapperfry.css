@@ -1,6 +1,5 @@
-body {
-    font-family: Poppins, sans-serif;
-    /* font-family: Manrope,sans-serif; */
+* {
+    font-family: Manrope,sans-serif;
 }
 
 #container>img {
